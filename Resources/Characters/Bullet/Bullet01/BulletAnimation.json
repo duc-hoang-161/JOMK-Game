@@ -1,0 +1,13 @@
+{
+	"Direct": "Characters/Bullet/Bullet01/Slash.plist",
+	"PhysicsBodyDirect": "Characters/Bullet/Bullet01/PhysicsBody/",
+	"Default": "slash_1.png",
+	"Data": {
+		"Run": {
+			"Tag": 1,
+			"Prefix": "slash_",
+			"MaxIndex": 4,
+			"Delay": 0.1
+		}		
+	}
+}

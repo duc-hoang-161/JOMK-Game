@@ -1,0 +1,24 @@
+{
+	"Direct": "Characters/stupidMonster/Animation.plist",
+	"Default": "idle1.png",
+	"Data": {
+		"IDLE": {
+			"Tag": 1,
+			"Prefix": "idle",
+			"MaxIndex": 4,
+			"Delay":0.07
+		},
+		"ATTACK": {
+			"Tag": 2,
+			"Prefix": "attack",
+			"MaxIndex": 19,
+			"Delay":0.07
+		},
+		"DIE" : {
+			"Tag": 3,
+			"Prefix": "die",
+			"MaxIndex": 10,
+			"Delay":0.04
+		}
+	}
+}

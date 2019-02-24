@@ -1,0 +1,12 @@
+{
+	"Direct": "Characters/Door/Light/Animation.plist",
+	"Default": "light_door1.png",
+	"Data": {
+		"OPEN": {
+			"Tag": 1,
+			"Prefix": "light_door",
+			"MaxIndex": 4,
+			"Delay":0.1
+		}
+	}
+}

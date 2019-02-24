@@ -1,0 +1,13 @@
+{
+	"Direct": "Characters/Bullet/Bullet06/bullet1.plist",
+	"PhysicsBodyDirect": "Characters/Bullet/Bullet06/PhysicsBody/",
+	"Default": "fire1.png",
+	"Data": {
+		"Run": {
+			"Tag": 1,
+			"Prefix": "fire",
+			"MaxIndex": 3,
+			"Delay": 1
+		}		
+	}
+}

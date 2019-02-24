@@ -1,0 +1,106 @@
+{
+   "volume":{
+      "isEnableAudio":true,
+      "backgroundVolume": 20,
+      "effectVolume":50
+   },
+   "sound":{
+      "rootPath":"audio/",
+      "theme":"theme.mp3",
+      "themeInGame":"themeInGame.mp3",
+      "effectRootPath":"effect/",
+      "effect":[
+         {
+            "action":"CHOOSESLOT",
+            "src":"thub.mp3"
+         },
+         {
+            "action":"UNCHOOSESLOT",
+            "src":"thubR.mp3"
+         },
+         {
+         	"action": "UI1",
+         	"src": "ui1.mp3"
+         },
+         {
+         	"action": "UI2",
+         	"src": "ui2.mp3"
+         },
+         {
+         	"action": "EQUIP",
+         	"src": "equip.mp3"
+         },
+         {
+         	"action": "OPENBUILDING",
+         	"src": "openBuilding.mp3"
+         },
+         {
+         	"action": "UION",
+         	"src": "UIon.mp3"
+         },
+         {
+         	"action": "UIOFF",
+         	"src": "UIoff.mp3"
+         },
+         {
+         	"action": "SUCCESS",
+         	"src": "success.mp3"
+         },
+         {
+         	"action": "SELECTUPGRADE",
+         	"src": "selectUpgrade.mp3"
+         },
+         {
+         	"action": "GETHIT",
+         	"src": "MCGetHit2.mp3"
+         },
+         {
+         	"action": "JUMP",
+         	"src": "MCJump.mp3"
+         },
+         {
+         	"action": "HITWITHSTICK",
+         	"src": "MCHitWithStick.mp3"
+         },
+         {
+         	"action": "PUNCH",
+         	"src": "MCPuch.mp3"
+         },
+         {
+         	"action": "NORMALHIT",
+         	"src": "MCNomalHit.mp3"
+         },
+         {
+         	"action": "SHOOTMAGIC",
+         	"src": "MCShotMagic2.mp3"
+         },
+         {
+         	"action": "GAMEOVER",
+         	"src": "GameOver.mp3"
+         },
+         {
+         	"action": "SPIDERATTACK",
+         	"src": "MonsterSpiderAttack.mp3"
+         },
+         {
+         	"action": "SPIDERDIE",
+         	"src": "MonsterSpiderDead.mp3"
+         },
+         {
+         	"action": "MCWALK",
+         	"src": "MCWalk.mp3"
+         },
+         {
+         	"action": "BOSSSMALLSHOOT",
+         	"src": "MonsterBossSmallShoot.mp3"
+         },
+         {
+         	"action": "PICKITEM",
+         	"src": "pickItem.mp3"
+         }
+
+
+
+      ]
+   }
+}

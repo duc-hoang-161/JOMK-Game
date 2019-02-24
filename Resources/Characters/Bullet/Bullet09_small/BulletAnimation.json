@@ -1,0 +1,13 @@
+{
+	"Direct": "Characters/Bullet/Bullet09_small/Animation.plist",
+	"PhysicsBodyDirect": "Characters/Bullet/Bullet09_small/PhysicsBody/",
+	"Default": "bullet1.png",
+	"Data": {
+		"Run": {
+			"Tag": 1,
+			"Prefix": "bullet",
+			"MaxIndex": 4,
+			"Delay": 0.1
+		}		
+	}
+}

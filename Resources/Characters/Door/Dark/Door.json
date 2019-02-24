@@ -1,0 +1,12 @@
+{
+	"Direct": "Characters/Door/Dark/Animation.plist",
+	"Default": "dark_door1.png",
+	"Data": {
+		"OPEN": {
+			"Tag": 1,
+			"Prefix": "dark_door",
+			"MaxIndex": 4,
+			"Delay":0.1
+		}
+	}
+}

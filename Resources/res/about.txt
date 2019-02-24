@@ -1,0 +1,13 @@
+ + Journey of the monkey king is a story about the training journey of Wukong. His hometown was dominate by the evil demon powerful but he was too weak to protect his family and to beat the demon out his hometown, Wukong make a journey crossword find the way to stronger, learn magic skill and get strong weapon.
+ 
+
+ + This game made and provided by: 
+    - HOANG TRONG MINH DUC (UI Designer, Programmer)
+    - NGUYEN DANG PHONG (Character Designer, Programmer)
+    - LE DINH TAM PHUNG (Character Designer, Programmer)
+    - VO THANH PHUONG (Character Designer, Programmer)
+    - DAO THI THIEN TAM (Team Leader, Character Designer, Programmer)
+
+
+ + Release time: 08/17/2018
+ + Version: alpha test 1.0

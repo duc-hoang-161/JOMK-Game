@@ -1,0 +1,10 @@
+{
+	"RunStep": 4,
+	"MaxHP": 500,
+	"MaxEnergy": 5000,
+	"Damage": 200,
+	"Magic": 100,
+	"Armor": 50,
+	"HitWithStickDamage": 60,
+	"EnergyPerSecond": 10
+}

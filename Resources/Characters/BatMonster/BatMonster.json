@@ -1,0 +1,36 @@
+{
+	"Direct": "opp-assets/sprites/batMonster.plist",
+	"Default": "batMonster.png",
+	"Data": {
+		"IDLE": {
+			"Tag": 1,
+			"Prefix": "stay",
+			"MaxIndex": 9,
+			"Delay":0.07
+		},
+		"WALK": {
+			"Tag": 2,
+			"Prefix": "walk",
+			"MaxIndex": 17,
+			"Delay": 0.07
+		},
+		"JUMP": {
+			"Tag": 3,
+			"Prefix": "jump",
+			"MaxIndex": 9,
+			"Delay": 0.07
+		},
+		"HIT_WITH_STICK": {
+			"Tag": 4,
+			"Prefix": "punch",
+			"MaxIndex": 20,
+			"Delay":0.035
+		},
+		"DIE" : {
+			"Tag": 5,
+			"Prefix": "die",
+			"MaxIndex": 25,
+			"Delay":0.04
+		}
+	}
+}

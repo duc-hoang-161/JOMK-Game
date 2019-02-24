@@ -1,0 +1,191 @@
+{
+	"Map": "opp-assets/Map03.tmx",
+	"Loading":[
+		"Characters/BoxMonster/Animation.png",
+		"Characters/Spider/Animation.png",
+		"Characters/stupidMonster/Animation.png",
+		"Characters/FrogMonster/Animation.png",
+		"opp-assets/sprites/traps/Wood.png",
+		"opp-assets/sprites/traps/wood-spikes.png",
+		"opp-assets/sprites/traps/brambles.png",
+		"opp-assets/sprites/traps/rock1.png",
+		"opp-assets/sprites/traps/rock2.png",
+		"opp-assets/sprites/traps/rock4.png",
+		"opp-assets/sprites/traps/rock5.png",
+		"Characters/Bullet/Bullet07/Animation.png",
+		"Characters/Bullet/Bullet10/Animation.png"
+	],
+	"Monsters": 
+	[
+		{
+			"Type": "BoxMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "BoxMonster01","BoxMonster02" ],
+			"Attribute": 
+			{
+				"MaxHP": 50,
+				"Damage" : 70,
+				"RunStep": 3,
+				"Gold": 20,
+			"Items": [
+					[111,2], [111,1]
+				]
+			}
+		},
+		{
+			"Type": "FrogMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "FrogMonster01","FrogMonster02","FrogMonster03"],
+			"Attribute": {
+				"MaxHP": 250,
+				"Damage": 70,
+				"RunStep": 4,
+				"Gold": 100,
+			"Items": [
+					[333,6], [333,9]
+				]
+			}
+		},
+		{
+			"Type": "Spider",
+			"ObjectGroup": "Main",
+			"Object": [ "Monster01", "Monster02", "Monster03", "Monster04", "Monster05" ],
+			"Attribute": {
+				"MaxHP": 100,
+				"Damage" : 20,
+				"RunStep": 3,
+				"Gold": 20
+			}
+		},
+		{
+			"Type": "stupidMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "stupid01","stupid02" ],
+			"Attribute": {
+				"MaxHP": 150,
+				"Damage": 70,
+				"RunStep": 4,
+				"Gold": 50,
+			"Items": [
+					[333,1],[444,13]
+				]
+			}
+		}
+		
+	],
+	"Traps":
+	[
+		{
+			"Type": "MovingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "Wood01", "Wood02" ],
+			"Attribute" : {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/Wood.png",
+				"Scale" : 0.55		
+				},
+				"Distance": 300,
+				"Orientation": "Vertical"
+			}
+		},
+{
+			"Type": "StaticTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "Trap01" ],
+			"Attribute" : {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/wood-spikes.png",
+				"Scale" : 1		
+				},
+				"Damage": 100
+			}
+		},
+{
+			"Type": "MovingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "bramble01" ],
+			"Attribute" : {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/brambles.png",
+				"Scale" : 1		
+				},
+				"Distance": 500,
+				"Orientation": "Vertical"
+			}
+		},
+{
+			"Type": "MovingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "batMonster01","batMonster03" ],
+			"Attribute" : {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/rock1.png",
+				"Scale" : 0.25		
+				},
+				"Damage": 200,
+				"Distance" : 400,
+				"Orientation": "Horizontal"
+
+			}
+		},
+{
+			"Type": "MovingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "batMonster02"],
+			"Attribute" : {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/rock2.png",
+				"Scale" : 0.5		
+				},
+				"Damage": 200,
+				"Distance" : 200,
+				"Orientation": "Horizontal"
+
+			}
+		},
+{
+			"Type": "FallingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "Rockfall1" , "Rockfall3" , "Rockfall5" ],
+			"Attribute": {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/rock4.png",
+					"Scale": 1
+				},
+				"MinDistance": 100,
+				"Damage": 60
+			}
+		},
+{
+			"Type": "FallingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "Rockfall2", "Rockfall4" , "Rockfall6" ],
+			"Attribute": {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/rock5.png",
+					"Scale": 1
+				},
+				"MinDistance": 100,
+				"Damage": 60
+			}
+		}
+	
+	],
+	"NextScene": {
+		"Key" : {
+			"ObjectGroup": "Main",
+			"Object": "Key",
+			"Attribute": {
+				"Damage": 20,
+				"MaxHP": 1,
+				"RunStep": 0,
+				"Gold": 0
+			}
+		}, 
+		"Door": {
+			"ObjectGroup" : "Main",
+			"Object": "Door",
+			"Direct": "Characters/Door/Light/Door.json"
+		}
+	}
+}

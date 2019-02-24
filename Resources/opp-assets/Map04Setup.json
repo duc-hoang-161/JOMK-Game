@@ -1,0 +1,208 @@
+{
+	"Map": "opp-assets/Map04.tmx",
+	"Loading":[
+		"Characters/BoxMonster/Animation.png",
+		"Characters/Spider/Animation.png",
+		"Characters/stupidMonster/Animation.png",
+		"Characters/FrogMonster/Animation.png",
+		"Characters/runMonster/Animation.png",
+		"opp-assets/environment/tiles/jungle/tree.png",
+		"opp-assets/environment/tiles/jungle/tile_jungle_bridge.png",
+		"opp-assets/environment/tiles/jungle/tile_jungle_bottom_brown.png",
+		"opp-assets/environment/background/jungle-background3-min.png",
+		"opp-assets/sprites/traps/LandMove.png",
+		"opp-assets/sprites/traps/2.png",
+		"opp-assets/sprites/traps/1.png",
+		"opp-assets/sprites/traps/DamegeTrap2.png",
+		"opp-assets/sprites/traps/fakeBridge.png",
+		"opp-assets/sprites/traps/LandFly.png"
+	],
+	"Monsters": 
+	[
+		{
+			"Type": "BoxMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "BoxMonster01","BoxMonster02","BoxMonster03" ],
+			"Attribute": 
+			{
+				"MaxHP": 50,
+				"Damage" : 70,
+				"RunStep": 3,
+				"Gold": 20,
+			"Items": [
+					[111,2], [111,1]
+				]
+			}
+		},
+		
+		{
+			"Type": "Spider",
+			"ObjectGroup": "Main",
+			"Object": [ "Monster01", "Monster02", "Monster03", "Monster04", "Monster05"],
+			"Attribute": 
+			{
+				"MaxHP": 100,
+				"Damage" : 70,
+				"RunStep": 3,
+				"Gold": 20,
+			"Items": [
+					[222,1], [333,3]
+				]
+			}
+		},
+		{
+			"Type": "stupidMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "stupid01","stupid02","stupid03" ],
+			"Attribute": {
+				"MaxHP": 150,
+				"Damage": 70,
+				"RunStep": 4,
+				"Gold": 50,
+			"Items": [
+					[333,1],[444,13]
+				]
+			}
+		},
+		{
+			"Type": "FrogMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "FrogMonster01","FrogMonster02","FrogMonster03","FrogMonster06","FrogMonster05","FrogMonster07" ],
+			"Attribute": {
+				"MaxHP": 250,
+				"Damage": 70,
+				"RunStep": 4,
+				"Gold": 100,
+			"Items": [
+					[333,6], [333,9]
+				]
+			}
+		},
+		{
+			"Type": "runMonster",
+			"ObjectGroup": "Main",
+			"Object": [ "runMonster" ],
+			"Attribute": 
+			{
+				"MaxHP": 100,
+				"Damage" : 100,
+				"RunStep": 3,
+				"Gold": 20,
+				"Items": [
+					[444,8], [444,15]
+				]
+			}
+		}
+				
+	],
+	"Traps":
+	[
+		{
+			"Type": "MovingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "Cloud01", "Cloud02", "Cloud03" ],
+			"Attribute": {
+				"Sprite" : {
+					"Image": "opp-assets/sprites/traps/LandMove.png",
+					"Scale": 0.6
+				},
+				"Distance": 300,
+				"Orientation": "Vertical"
+			}
+		},
+	
+		{
+			"Type": "FallingTrap",
+			"ObjectGroup": "Main",
+			"Object" : [ "Land2" ],
+			"Attribute": {
+				"Sprite" : {
+					"Image": "opp-assets/sprites/traps/2.png",
+					"Scale": 0.8
+				},
+				"MinDistance": 100,
+				"Damage": 0	
+			}
+		},
+		{
+			"Type": "FallingTrap",
+			"ObjectGroup": "Main",
+			"Object" : [ "Land1" ],
+			"Attribute": {
+				"Sprite" : {
+					"Image": "opp-assets/sprites/traps/1.png",
+					"Scale": 0.8
+				},
+				"MinDistance": 100,
+				"Damage": 9999	
+			}
+		},
+		{
+			"Type": "DamegeTrap",
+			"ObjectGroup": "Main",
+			"Object" : [ "DamegeTrap01" ],
+			"Attribute": {
+				"Sprite" : {
+					"Image": "opp-assets/sprites/traps/DamegeTrap2.png",
+					"Scale": 1
+				},
+				"MinDistance": 100,
+				"Damage": 150
+			}
+		},
+		{
+			"Type": "FallingTrap2",
+			"ObjectGroup": "Main",
+			"Object": [ "Bridge02" ],
+			"Attribute": {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/fakeBridge.png",
+					"Scale": 0.8
+				}
+			}
+		},
+		{
+			"Type": "FallingTrap2",
+			"ObjectGroup": "Main",
+			"Object": [ "LandFall" ],
+			"Attribute": {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/LandFly.png"
+					
+				}
+			}
+		},
+		{
+			"Type": "MovingTrap",
+			"ObjectGroup": "Main",
+			"Object": [ "LandFly01"  ],
+			"Attribute" : {
+				"Sprite": {
+					"Image": "opp-assets/sprites/traps/LandFly.png"
+				},
+				"Damage": 20,
+				"Distance" : 350,
+				"Orientation": "Horizontal"
+
+			}
+		}
+			
+	],
+	"NextScene": {
+		"Key" : {
+			"ObjectGroup": "Main",
+			"Object": "Key",
+			"Attribute": {
+				"Damage": 20,
+				"MaxHP": 1,
+				"RunStep": 0,
+				"Gold": 0
+			}
+		}, 
+		"Door": {
+			"ObjectGroup" : "Main",
+			"Object": "Door",
+			"Direct": "Characters/Door/Light/Door.json"
+		}
+	}
+}

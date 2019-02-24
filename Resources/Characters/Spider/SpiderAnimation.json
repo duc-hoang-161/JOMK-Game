@@ -1,0 +1,31 @@
+{
+	"Direct": "Characters/Spider/Animation.plist",
+	"Default": "Walk1.png",
+	"Data": {
+		"IDLE": {
+			"Tag": 4,
+			"Prefix": "Walk",
+			"MaxIndex": 3,
+			"Delay": 0.07
+		},
+
+		"WALK": {
+			"Tag": 1,
+			"Prefix": "Walk",
+			"MaxIndex": 10,
+			"Delay": 0.07
+		},
+		"WALKUP": {
+			"Tag": 2,
+			"Prefix": "WalkUp",
+			"MaxIndex": 10,
+			"Delay": 0.07
+		},
+		"DIE" : {
+			"Tag": 3,
+			"Prefix": "die",
+			"MaxIndex": 3,
+			"Delay":0.04
+		}
+	}
+}

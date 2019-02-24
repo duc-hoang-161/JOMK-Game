@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>p1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{188,213},{220,177}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{220,177}</string>
+			</dict>
+			<key>p2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{206,0},{220,176}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{220,176}</string>
+			</dict>
+			<key>p3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,646},{177,213}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{177,213}</string>
+			</dict>
+			<key>p4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,433},{191,213}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{191,213}</string>
+			</dict>
+			<key>p5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{206,213}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,213}</string>
+			</dict>
+			<key>p6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,213},{220,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{220,188}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist2.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist2.png</string>
+			<key>size</key>
+			<string>{426,859}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>426</integer>
+			<key>height</key>
+			<integer>859</integer>
+		</dict>
+	</dict>
+</plist>

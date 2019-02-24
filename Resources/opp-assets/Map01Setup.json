@@ -1,0 +1,40 @@
+{
+	"Map": "opp-assets/Map01.tmx",
+	"Loading": [
+		"Characters/Spider/Animation.png",
+		"opp-assets/environment/background/kk009_2560x1280.png",
+		"opp-assets/environment/tiles/jungle/tree.png",
+		"opp-assets/environment/tiles/14b4ac519c8c4fcd9bff42d21e9d41fb.png"
+	],
+	"Monsters": 
+	[
+		{
+			"Type": "Spider",
+			"ObjectGroup": "Main",
+			"Object": [ "Monster01", "Monster02", "Monster03", "Monster04", "Monster05" ],
+			"Attribute": {
+				"Damage": 20,
+				"MaxHP": 50,
+				"RunStep": 2,
+				"Gold": 20
+			}
+		}
+	],
+	"NextScene": {
+		"Key" : {
+			"ObjectGroup": "Main",
+			"Object": "Key",
+			"Attribute": {
+				"Damage": 20,
+				"MaxHP": 1,
+				"RunStep": 0,
+				"Gold": 0
+			}
+		}, 
+		"Door": {
+			"ObjectGroup" : "Main",
+			"Object": "Door",
+			"Direct": "Characters/Door/Light/Door.json"
+		}
+	}
+}

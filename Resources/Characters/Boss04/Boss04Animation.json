@@ -1,0 +1,48 @@
+{
+	"Direct": "Characters/Boss04/Animation.plist",
+	"Default": "BossJG_Idle1.png",
+	"Data": {
+		"IDLE": {
+			"Tag": 1,
+			"Prefix": "BossJG_Idle",
+			"MaxIndex": 7,
+			"Delay":0.07
+		},
+		"WALK": {
+			"Tag": 2,
+			"Prefix": "BossJG_Walk",
+			"MaxIndex": 7,
+			"Delay": 0.07
+		},
+		"ATTACK": {
+			"Tag": 3,
+			"Prefix": "BossJG_Attack",
+			"MaxIndex": 7,
+			"Delay": 0.07
+		},
+		"DIE" : {
+			"Tag": 4,
+			"Prefix": "BossJG_Die",
+			"MaxIndex": 7,
+			"Delay":0.04
+		},
+		"JUMP" : {
+			"Tag": 5,
+			"Prefix": "BossJG_Jump",
+			"MaxIndex": 7,
+			"Delay":0.04
+		},
+		"RUN" : {
+			"Tag": 6,
+			"Prefix": "BossJG_Run",
+			"MaxIndex": 7,
+			"Delay":0.04
+		},
+		"HURT" : {
+			"Tag": 7,
+			"Prefix": "BossJG_Hurt",
+			"MaxIndex": 7,
+			"Delay":0.04
+		}
+	}
+}

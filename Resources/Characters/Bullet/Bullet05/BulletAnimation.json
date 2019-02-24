@@ -1,0 +1,13 @@
+{
+	"Direct": "Characters/Bullet/Bullet05/bulletfire1.plist",
+	"PhysicsBodyDirect": "Characters/Bullet/Bullet05/PhysicsBody/",
+	"Default": "bulletfire1.png",
+	"Data": {
+		"Run": {
+			"Tag": 1,
+			"Prefix": "bulletfire",
+			"MaxIndex": 1,
+			"Delay": 0.1
+		}		
+	}
+}

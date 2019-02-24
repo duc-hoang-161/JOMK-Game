@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{0e3b8d63-2306-4a53-9b98-14d097f30dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Helper">
+      <UniqueIdentifier>{97e05ff7-4ae7-4ad0-b735-672d0ae43220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Items">
+      <UniqueIdentifier>{ddff5045-49ca-47b9-92b3-4ccdb5297503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameManager">
+      <UniqueIdentifier>{ddcd1e50-55a5-4e23-8d53-75ed0d95cb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Objects">
+      <UniqueIdentifier>{bc57b863-2e46-40b2-9126-f96b8f4760f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{54da1d09-79ea-4841-963d-af7f7f8ca0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character">
+      <UniqueIdentifier>{a264f3a0-b111-4da6-a57b-7d6493be93b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\MainCharacter">
+      <UniqueIdentifier>{34d2cdeb-895c-4ccb-801f-3c2aa04c6d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Monsters">
+      <UniqueIdentifier>{8e27c8a4-37ea-482c-b363-f916315027b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Import">
+      <UniqueIdentifier>{928cbe67-0984-4314-85b1-4437a7253753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Other">
+      <UniqueIdentifier>{9708570f-c0ec-4ed8-a3c8-e2bab0d27cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Bullet">
+      <UniqueIdentifier>{228825bc-3075-40ff-a247-731b59bc6b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Other">
+      <UniqueIdentifier>{9708570f-c0ec-4ed8-a3c8-e2bab0d27cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Traps">
+      <UniqueIdentifier>{75710ed1-01fb-4ff2-9ccc-76b5a845c6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Items">
+      <UniqueIdentifier>{757a846c-f108-4d52-88a2-e506f8bd1ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Skill">
+      <UniqueIdentifier>{db1899c1-3066-4aa5-8282-1cc3e5931b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character\Door">
+      <UniqueIdentifier>{874bd085-46fc-46a0-bddf-78efa7b41de4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\BatMonster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\BossSmall.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\Monster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\Spider.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\Trap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\Helper.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\MyBodyParser.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\PhysicsBodyManager.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\TraceImageHelper.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Import\AudioConfig.cpp">
+      <Filter>src\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Import\MapPointConfig.cpp">
+      <Filter>src\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Items\GameItem.cpp">
+      <Filter>src\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Items\MagicItem.cpp">
+      <Filter>src\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Items\PieceItem.cpp">
+      <Filter>src\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Items\Weapon.cpp">
+      <Filter>src\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\DynamicGameObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\GameObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\CollectionScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\DemoScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\LoadingScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MainScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MapScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SettingOverlay.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\ShopScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\SmithyScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\TowerScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\MainCharacter\MainCharacter.cpp">
+      <Filter>src\Character\MainCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\PhysicsContactManager.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\Demo2Scene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLES-Render.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\GameObjectManager.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\ConvertHelper.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Helper\b2Helper.cpp">
+      <Filter>src\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Bullet\Bullet.cpp">
+      <Filter>src\Character\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Bullet\Bullets.cpp">
+      <Filter>src\Character\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Import\ItemsConfig.cpp">
+      <Filter>src\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Import\PackConfig.cpp">
+      <Filter>src\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\Alert.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\BaseUI.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\Button.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\MyGridView.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\Slot.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\Boss04.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\LivingObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\MovingTrap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\FallingTrap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\FallingTrap2.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager\GameHub.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\DamageTrap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\RockFall.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\StaticTrap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\GunTrap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Items\Item.cpp">
+      <Filter>src\Character\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\runMonster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\stupidMonster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\SneakyJoystick.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GUI\SneakyJoystickSkinnedBase.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Traps\FireTrap.cpp">
+      <Filter>src\Character\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\BoxMonster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Skill\Skill.cpp">
+      <Filter>src\Character\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Bullet\SuperBullets.cpp">
+      <Filter>src\Character\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\Box.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\FrogMonster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Monsters\BirdMonster.cpp">
+      <Filter>src\Character\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Items\Key.cpp">
+      <Filter>src\Character\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Door\Door.cpp">
+      <Filter>src\Character\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\LoadingMapScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Skill\Flash.cpp">
+      <Filter>src\Character\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Skill\Heal.cpp">
+      <Filter>src\Character\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Skill\IronFist.cpp">
+      <Filter>src\Character\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character\Skill\RageMode.cpp">
+      <Filter>src\Character\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Items\EquipItem.cpp">
+      <Filter>src\Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\BatMonster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\BossSmall.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\Monster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\Spider.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\Trap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\Helper.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\MyBodyParser.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\PhysicsBodyManager.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\TraceImageHelper.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Import\AudioConfig.h">
+      <Filter>src\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Import\MapPointConfig.h">
+      <Filter>src\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Items\GameItem.h">
+      <Filter>src\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Items\MagicItem.h">
+      <Filter>src\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Items\PieceItem.h">
+      <Filter>src\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Items\Weapon.h">
+      <Filter>src\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\DynamicGameObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\GameObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\CollectionScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\DemoScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\LoadingScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MainScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MapScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SettingOverlay.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\ShopScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\SmithyScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\TowerScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Define.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\PhysicsContactManager.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\Demo2Scene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLES-Render.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\GameObjectManager.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\ConvertHelper.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Helper\b2Helper.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Bullet\Bullet.h">
+      <Filter>src\Character\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\MainCharacter\MainCharacter.h">
+      <Filter>src\Character\MainCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Bullet\Bullets.h">
+      <Filter>src\Character\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Import\ItemsConfig.h">
+      <Filter>src\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Import\PackConfig.h">
+      <Filter>src\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\Alert.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\BaseUI.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\Button.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\MyGridView.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\Slot.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\Boss04.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\LivingObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\MovingTrap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\FallingTrap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\FallingTrap2.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager\GameHub.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\DamageTrap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\RockFall.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\StaticTrap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\GunTrap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Items\Item.h">
+      <Filter>src\Character\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\runMonster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\stupidMonster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\SneakyJoystick.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GUI\SneakyJoystickSkinnedBase.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Traps\FireTrap.h">
+      <Filter>src\Character\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\BoxMonster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Skill\Skill.h">
+      <Filter>src\Character\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Bullet\SuperBullets.h">
+      <Filter>src\Character\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\Box.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\FrogMonster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Monsters\BirdMonster.h">
+      <Filter>src\Character\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Items\Key.h">
+      <Filter>src\Character\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Door\Door.h">
+      <Filter>src\Character\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\LoadingMapScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Skill\Flash.h">
+      <Filter>src\Character\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Skill\Heal.h">
+      <Filter>src\Character\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Skill\IronFist.h">
+      <Filter>src\Character\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character\Skill\RageMode.h">
+      <Filter>src\Character\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Items\EquipItem.h">
+      <Filter>src\Items</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

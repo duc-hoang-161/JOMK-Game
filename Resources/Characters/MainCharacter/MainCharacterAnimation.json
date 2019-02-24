@@ -1,0 +1,73 @@
+{
+	"Direct": "Characters/MainCharacter/Animation.plist",
+	"PhysicsBodyDirect": "Characters/MainCharacter/PhysicsBody/",
+	"Default": "mc_idle1.png",
+	"Data": {
+		"IDLE": {
+			"Tag": 1,
+			"Prefix": "mc_idle",
+			"MaxIndex": 9,
+			"Delay":0.07
+		},
+		"WALK": {
+			"Tag": 2,
+			"Prefix": "mc_walk",
+			"MaxIndex": 17,
+			"Delay": 0.07
+		},
+		"JUMP": {
+			"Tag": 3,
+			"Prefix": "mc_jump",
+			"MaxIndex": 9,
+			"Delay": 0.07
+		},
+		"DIE" : {
+			"Tag": 4,
+			"Prefix": "mc_die",
+			"MaxIndex": 25,
+			"Delay":0.04
+		},		
+		"HIT": {
+			"Tag": 5,
+			"Prefix": "mc_hit",
+			"MaxIndex": 20,
+			"Delay":0.016
+		},
+		"HIT_WITH_STICK": {
+			"Tag": 6,
+			"Prefix": "mc_hit_with_stick",
+			"MaxIndex": 21,
+			"Delay":0.02
+		},		
+		"FLY": {
+			"Tag": 8,
+			"Prefix": "mc_fly",
+			"MaxIndex": 9,
+			"Delay": 0.04
+		},
+		"GETHIT": {
+			"Tag": 7,
+			"Prefix": "mc_gethit",
+			"MaxIndex": 13,
+			"Delay": 0.04
+		},
+		"FLY_GETHIT": {
+			"Tag": 9,
+			"Prefix": "mc_fly_gethit",
+			"MaxIndex": 9,
+			"Delay": 0.04
+		},
+		"FLY_ON_STICK": {
+			"Tag": 10,
+			"Prefix": "mc_fly_on_stick",
+			"MaxIndex": 9,
+			"Delay": 0.04
+		},
+		"FLY_ON_STICK_GETHIT": {
+			"Tag": 11,
+			"Prefix": "mc_fly_on_stick_gethit",
+			"MaxIndex": 9,
+			"Delay": 0.04
+		}		
+	}
+}
