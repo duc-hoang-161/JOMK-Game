@@ -1,0 +1,45 @@
+# Journey Of The Monkey King
+<p align="center">
+  
+  <br>
+  <img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_001.png">
+  <br>
+  <br>
+  <a href="https://cocos2d-x.org/" target="_blank"><img alt="undefined" src="https://badgen.net/badge/engine/Cocos2DX/blue"></a>
+  <br>
+  <a href="#"><img alt="undefined" src="https://badgen.net/badge/platform/android,ios,windows,macos?list=1"></a>
+  <br>
+  <a href="https://github.com/HoangTrongMinhDuc/JMOK-Game/tree/v0.1-alpha-test"><img alt="undefined" src="https://badgen.net/badge/release/android/green"></a>
+  <br><br><br>
+</p>
+
+<br>
+<p algin="center">
+ Journey of the monkey king is a story about the training journey of Wukong. His hometown was dominate by the evil demon powerful but he was too weak to protect his family and to beat the demon out his hometown, Wukong make a journey crossword find the way to stronger, learn magic skill and get strong weapon.
+ 
+
+ + This game made and provided by: 
+    - HOANG TRONG MINH DUC (UI Designer, Programmer)
+    - NGUYEN DANG PHONG (Character Designer, Programmer)
+    - LE DINH TAM PHUNG (Character Designer, Programmer)
+    - VO THANH PHUONG (Character Designer, Programmer)
+    - DAO THI THIEN TAM (Team Leader, Character Designer, Programmer)
+
+
+ + Release time: 08/17/2018
+ + Version: alpha test 1.0
+</p>
+<br>
+<br>
+<img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_003.png">
+ <br>
+<img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_008.png">
+<br>
+<img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_010.png">
+<br>
+<img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_011.png">
+<br>
+<img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_022.png">
+<br>
+<img alt="Logo" src="https://raw.githubusercontent.com/HoangTrongMinhDuc/JMOK-Game/master/Screenshots/JOMK_027.png">
+
