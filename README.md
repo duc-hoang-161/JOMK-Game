@@ -9,7 +9,7 @@
   <br>
   <a href="#"><img alt="undefined" src="https://badgen.net/badge/platform/android,ios,windows,macos?list=1"></a>
   <br>
-  <a href="https://github.com/HoangTrongMinhDuc/JMOK-Game/tree/v0.1-alpha-test"><img alt="undefined" src="https://badgen.net/badge/release/android/green"></a>
+  <a href="https://github.com/HoangTrongMinhDuc/JMOK-Game/releases"><img alt="undefined" src="https://badgen.net/badge/release/android/green"></a>
   <br><br><br>
 </p>
 
