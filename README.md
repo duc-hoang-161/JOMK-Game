@@ -15,7 +15,7 @@
 
 <br>
 <p algin="center">
- Journey of the monkey king is a story about the training journey of Wukong. His hometown was dominate by the evil demon powerful but he was too weak to protect his family and to beat the demon out his hometown, Wukong make a journey crossword find the way to stronger, learn magic skill and get strong weapon.
+ "Journey of the Monkey King" is a story about the training journey of Wukong. His hometown was dominated by a powerful evil demon, and he was too weak to protect his family or drive the demon out. To strengthen himself, Wukong embarks on a journey to crosswords, seeking ways to become stronger, learn magical skills, and acquire powerful weapons.
  
 
  + This game made and provided by: 
